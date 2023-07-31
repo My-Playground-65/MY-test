@@ -1,0 +1,39 @@
+Q1. Elucidate the following concepts: 'Statically Typed Language', 'Dynamically
+Typed Language', 'Strongly Typed Language', and 'Loosely Typed Language'?
+Also, into which of these categories would Java fall?”
+
+Statically Typed Language
+
+Statically typed programming languages do type checking at compile-time.
+
+In a statically typed language, the data types of variables are explicitly declared and known at compile time. The compiler performs type checking and ensures that the data types are used correctly throughout the program. Once a variable is declared with a specific data type, its type cannot change during runtime.
+
+The main advantage here is that all kinds of checking can be done by the compiler, and therefore a lot of trivial bugs are caught at a very early stage.
+Examples: C, C++, Java, Rust, Go, Scala
+Dynamically Typed Language
+
+Dynamically typed programming languages do type checking at run-time.
+
+In dynamically typed languages, variable data types are determined implicitly during runtime, and they can be changed throughout the program's execution. Type checking occurs at runtime, making the code more flexible, as variables can hold values of different types at different stages in the program. Unlike statically typed languages, where types are known at compile time, dynamically typed languages offer greater flexibility but may be prone to runtime errors if a variable's type is not handled appropriately. 
+
+Examples: Perl, Ruby, Python, PHP, JavaScript, Erlang
+
+Strongly Typed Language
+
+Strongly typed language has stricter typing rules at compile time, which implies that errors and exceptions are more likely to happen during compilation.
+
+Strongly typed languages prioritize safety and consistency by enforcing strict data type usage. This approach helps minimize errors and unexpected behavior, as it ensures that operations are carried out with compatible data types. If a particular operation requires different data types, the programmer must explicitly convert the data types to perform the operation safely.
+
+Examples: java, C++, swift
+
+Loosely Typed Language
+
+In a loosely typed language, also referred to as a weakly typed language, the type system is more permissive, allowing implicit type conversions and the mixing of data types without the need for explicit conversions.
+
+
+
+Loosely typed languages provide greater flexibility to the programmer, as they allow variables and expressions of different data types to be used together without strict restrictions. For example, you can perform operations between variables of different types without explicitly converting them.
+
+However, this flexibility comes with potential risks. Loosely typed languages may lead to subtle errors and bugs, as the compiler or interpreter might perform implicit conversions that the programmer did not intend. This behavior can sometimes result in unexpected outcomes, making it crucial for developers to be cautious and aware of potential type-related issues.
+
+Examples: PHP, Perl
